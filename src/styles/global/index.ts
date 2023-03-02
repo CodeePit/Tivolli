@@ -44,6 +44,7 @@ const RootCSS = createGlobalStyle`
     color: var(--color-text);
     font-family: var(--font-primary);
     background-color: var(--color-background);
+    position: relative;
   }
   button {
     cursor: pointer;

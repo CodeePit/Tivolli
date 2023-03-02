@@ -6,11 +6,13 @@ import LogosSection from '@components/sections/logos';
 import Mapa from '@components/sections/mapa';
 import SectionVideo from '@components/sections/sectionVideo';
 import ValuesSection from '@components/sections/values';
+import Whatsapp from '@components/whatsapp';
 
 const Home = () => {
   return (
     <>
       <Header />
+      <Whatsapp />
       <ValuesSection />
       <SectionVideo />
       <Fases />

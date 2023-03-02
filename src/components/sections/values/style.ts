@@ -4,7 +4,7 @@ export const ValueSectionStyle = styled.div`
   width: 100%;
   height: auto;
   padding: 0 1rem;
-  min-height: 233px;
+  min-height: 200px;
   background-color: var(--color-background-darkgreen);
   display: flex;
   justify-content: center;
@@ -16,33 +16,33 @@ export const ValueSectionStyle = styled.div`
     .loteamento {
       color: white;
       font-weight: 700;
-      font-size: 25px;
+      font-size: 18px;
       line-height: 30px;
       text-align: center;
       width: 350px;
       opacity: 0.9;
       @media (max-width: 1300px) {
-        font-size: 25px;
+        font-size: 20px;
         width: 300px;
       }
     }
     .values {
       color: white;
       font-weight: 400;
-      font-size: 25px;
+      font-size: 18px;
       line-height: 30px;
       text-align: center;
       width: 350px;
       opacity: 0.9;
       span {
         font-weight: 700;
-        font-size: 28px;
+        font-size: 20px;
       }
       @media (max-width: 1300px) {
-        font-size: 25px;
+        font-size: 16px;
         width: 350px;
         span {
-          font-size: 27px;
+          font-size: 18px;
         }
       }
       @media (max-width: 700px) {
@@ -55,12 +55,11 @@ export const ValueSectionStyle = styled.div`
     a {
       white-space: nowrap;
       text-decoration: none;
-      padding: 1.5rem 2.5rem;
+      padding: 1rem 2rem;
       background: var(--color-background-gold);
       border-radius: 7px;
-      height: 70px;
       font-weight: 700;
-      font-size: 22px;
+      font-size: 18px;
       line-height: 24px;
       color: var(--color-text);
       display: flex;
@@ -72,9 +71,8 @@ export const ValueSectionStyle = styled.div`
         transform: scale(1.02);
       }
       @media (max-width: 1300px) {
-        height: 50px;
-        font-size: 18px;
-        padding: 2rem 2rem;
+        font-size: 16px;
+        padding: 1rem 1.5rem;
       }
       @media (max-width: 700px) {
         font-size: 17px;
@@ -83,13 +81,11 @@ export const ValueSectionStyle = styled.div`
     @media (max-width: 1024px) {
       gap: 1rem;
     }
-    @media (max-width: 769px) {
+    @media (max-width: 963px) {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding: 2rem 0;
     }
-  }
-  @media (max-width: 769px) {
-    padding: 2rem;
   }
 `;

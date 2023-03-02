@@ -52,7 +52,7 @@ export const HeaderStyle = styled.header`
     @media (max-width: 1500px) {
       top: 0;
       left: 50%;
-      transform: translate(-50%, 45%);
+      transform: translate(-50%, 25%);
     }
     @media (max-width: 1370px) {
       transform: translate(-50%, 25%);
@@ -62,6 +62,9 @@ export const HeaderStyle = styled.header`
       left: 50%;
       transform: translate(-50%, 15%);
     }
+  }
+  @media (max-width: 1500px) {
+    height: 580px;
   }
   @media (max-width: 1370px) {
     height: 600px;
