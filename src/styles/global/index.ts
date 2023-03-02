@@ -2,8 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const ColorsCSS = createGlobalStyle`
   :root {
-    --color-primary: ${({ theme }) => theme.colors.primary};
-    --color-secondary: ${({ theme }) => theme.colors.secondary};
+ 
     --color-text: ${({ theme }) => theme.colors.textGreen};
     --color-background-header: ${({ theme }) => theme.colors.greenHeader};
     --color-background-darkgreen: ${({ theme }) => theme.colors.darkGreen};
@@ -11,9 +10,7 @@ const ColorsCSS = createGlobalStyle`
     --color-background-gold: ${({ theme }) => theme.colors.goldColor}
     --color-background-gold-reverse: ${({ theme }) =>
       theme.colors.goldColoReverse}
-    --color-shadow: ${({ theme }) => theme.colors.shadow};
-    --color-error: ${({ theme }) => theme.colors.error};
-    --color-footer-bottom: ${({ theme }) => theme.colors.footerBottom};
+   
   }
 `;
 const FontsCSS = createGlobalStyle`
