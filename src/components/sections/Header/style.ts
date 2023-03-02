@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderStyle = styled.header`
   width: 100%;
-  height: 900px;
+  height: 700px;
   background: var(--color-background-header);
   position: relative;
   .folhasHeader {
