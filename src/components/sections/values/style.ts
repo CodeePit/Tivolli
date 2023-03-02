@@ -21,7 +21,7 @@ export const ValueSectionStyle = styled.div`
       text-align: center;
       width: 350px;
       opacity: 0.9;
-      @media (max-width: 1024px) {
+      @media (max-width: 1300px) {
         font-size: 25px;
         width: 300px;
       }
@@ -38,7 +38,7 @@ export const ValueSectionStyle = styled.div`
         font-weight: 700;
         font-size: 28px;
       }
-      @media (max-width: 1024px) {
+      @media (max-width: 1300px) {
         font-size: 25px;
         width: 350px;
         span {
@@ -71,7 +71,7 @@ export const ValueSectionStyle = styled.div`
       :hover {
         transform: scale(1.02);
       }
-      @media (max-width: 1024px) {
+      @media (max-width: 1300px) {
         height: 50px;
         font-size: 18px;
         padding: 2rem 2rem;

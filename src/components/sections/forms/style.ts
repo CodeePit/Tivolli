@@ -24,7 +24,7 @@ export const SectionFormStyle = styled.div`
     top: 0;
     left: 0;
     z-index: 0;
-    @media (min-width: 1025px) {
+    @media (min-width: 1370px) {
       display: none;
     }
   }

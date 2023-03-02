@@ -48,17 +48,23 @@ export const HeaderStyle = styled.header`
     top: 0;
     left: 0;
     z-index: 9;
-    transform: translate(-75%, 65%);
+    transform: translate(-75%, 45%);
     @media (max-width: 1500px) {
       top: 0;
       left: 50%;
-      transform: translate(-50%, 65%);
+      transform: translate(-50%, 45%);
+    }
+    @media (max-width: 1370px) {
+      transform: translate(-50%, 25%);
     }
     @media (max-width: 769px) {
       top: 0;
       left: 50%;
       transform: translate(-50%, 15%);
     }
+  }
+  @media (max-width: 1370px) {
+    height: 600px;
   }
   @media (max-width: 900px) {
     height: 700px;
