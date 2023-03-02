@@ -5,6 +5,7 @@ export const HeaderStyle = styled.header`
   height: 700px;
   background: var(--color-background-header);
   position: relative;
+  overflow: hidden;
   .folhasHeader {
     position: absolute;
     top: 0;

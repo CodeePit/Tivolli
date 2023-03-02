@@ -47,6 +47,7 @@ export const ValueSectionStyle = styled.div`
       }
       @media (max-width: 700px) {
         font-size: 20px;
+        width: fit-content;
         span {
           font-size: 22px;
         }
