@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
-export const WhatsappStyle = styled.button`
+export const WhatsappStyle = styled.a`
   padding: 0.7rem 2rem;
   background-color: rgba(40, 239, 76, 1);
   font-family: var(--font-primary);
   font-size: 1rem;
   color: white;
   position: fixed;
+  text-decoration: none;
+  cursor: pointer;
   z-index: 9999;
   right: 1rem;
   top: 32rem;
