@@ -25,7 +25,7 @@ export const ItensIcons: iItensIcons[] = [
 
   {
     id: 4,
-    title: 'Ampia área verde',
+    title: 'Ampla área verde',
     icon: <Ampia />,
   },
   {
