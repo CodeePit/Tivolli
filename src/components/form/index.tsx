@@ -19,7 +19,7 @@ const Form = () => {
       .post('https://julioejulio.cvcrm.com.br/api/cvio/lead', dataCvCRM)
       .then((res) => {
         alert(
-          'Recebemos seu formulário.\n\n Entraremos em contato com você em breve',
+          'Recebemos seu formulário.\n\n Entraremos em contato com você em breve'
         );
         return res;
       })
