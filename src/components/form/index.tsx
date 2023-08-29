@@ -13,7 +13,7 @@ const Form = () => {
       idempreendimento: 3,
       origem: 'SI',
       midia: 'Google LP',
-      conversao: 'CoreAg',
+      conversao: 'CoreAg'
     };
     return fetcher
       .post('https://julioejulio.cvcrm.com.br/api/cvio/lead', dataCvCRM)
