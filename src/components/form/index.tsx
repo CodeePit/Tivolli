@@ -13,21 +13,21 @@ const Form = () => {
       idempreendimento: 3,
       origem: 'SI',
       midia: 'Google LP',
-      conversao: 'CoreAg'
+      conversao: 'CoreAg',
     };
     return fetcher
       .post('https://julioejulio.cvcrm.com.br/api/cvio/lead', dataCvCRM)
       .then((res) => {
         alert(
-          'Recebemos seu formulário.\n\n Entraremos em contato com você em breve'
+          'Recebemos seu formulário.\n\n Entraremos em contato com você em breve',
         );
         return res;
       })
-      .catch(() =>
+      .catch((err) => {
         alert(
           'Ops... Houve um erro ao enviar seu formulário.\n\n Por favor tente novamente mais tarde.',
-        ),
-      );
+        );
+      });
   }
   return (
     <FormStyle id="form">

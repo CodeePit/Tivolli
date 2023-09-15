@@ -14,7 +14,7 @@ Tivolli is an Lp developed for a construction company and to present the project
 
 The objective is to develop an LP that presents the new development in a simple and beautiful way, **welcome to Tivolli!**
 
-<!-- 
+<!--
   ...
   Local Reservado para o GIF do projeto rodando.
   ...

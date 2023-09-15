@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const ColorsCSS = createGlobalStyle`
   :root {
- 
+
     --color-text: ${({ theme }) => theme.colors.textGreen};
     --color-background-header: ${({ theme }) => theme.colors.greenHeader};
     --color-background-darkgreen: ${({ theme }) => theme.colors.darkGreen};
@@ -10,7 +10,7 @@ const ColorsCSS = createGlobalStyle`
     --color-background-gold: ${({ theme }) => theme.colors.goldColor}
     --color-background-gold-reverse: ${({ theme }) =>
       theme.colors.goldColoReverse}
-   
+
   }
 `;
 const FontsCSS = createGlobalStyle`
