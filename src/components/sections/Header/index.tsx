@@ -9,7 +9,8 @@ const Header = () => {
       <FolhasHeader />
       <div className="hero">
         <img className="logo" src="./img/logo.png" alt="logo" />
-        <img className="heroBanner" src="./img/bannerHero.png" alt="Hero" />
+        <img className="heroBanner" src="./img/bannerHero.jpg" alt="Hero" />
+        <img className="heroBannerMobile" src="./img/bannerMobile.jpg" alt="Hero" />
       </div>
     </HeaderStyle>
   );

@@ -28,20 +28,33 @@ export const HeaderStyle = styled.header`
     float: right;
     height: 100%;
     width: 77%;
+    @media (max-width: 1500px){
+      width: 100%;
+    }
     @media (max-width: 769px) {
       display: flex;
       align-items: end;
     }
+    @media (max-width: 658px) {
+      width: 100%;
+    }
     .heroBanner {
       width: 100%;
       height: 100%;
+      object-fit: cover;
       @media (max-width: 769px) {
-        object-fit: cover;
         height: 75%;
       }
+      @media (max-width: 658px) {
+        display: none;
+      }
     }
-    @media (max-width: 1500px) {
+    .heroBannerMobile {
       width: 100%;
+      height: 100%;
+      @media (width: 659px) {
+        display: none;
+      }
     }
   }
   .logo {
