@@ -28,7 +28,7 @@ export const HeaderStyle = styled.header`
     float: right;
     height: 100%;
     width: 77%;
-    @media (max-width: 1500px){
+    @media (max-width: 1700px){
       width: 100%;
     }
     @media (max-width: 769px) {
@@ -63,10 +63,10 @@ export const HeaderStyle = styled.header`
     left: 0;
     z-index: 9;
     transform: translate(-75%, 45%);
-    @media (max-width: 1500px) {
+    @media (max-width: 1700px) {
       top: 0;
-      left: 50%;
-      transform: translate(-50%, 25%);
+      left: 25%;
+      transform: translate(-75%, 25%);
     }
     @media (max-width: 1370px) {
       transform: translate(-50%, 25%);
