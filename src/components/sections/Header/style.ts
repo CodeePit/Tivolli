@@ -40,7 +40,7 @@ export const HeaderStyle = styled.header`
     }
     .heroBanner {
       width: 100%;
-      height: 100%;
+      height: 130%;
       object-fit: cover;
       @media (max-width: 769px) {
         height: 75%;
