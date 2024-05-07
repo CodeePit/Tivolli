@@ -5,8 +5,8 @@ const Fases = () => {
     <FasesStyle>
       <div className="texts">
         <div className="lancamento">2º fase de Lançamento</div>
-        <div className="pronto">Pronto em 2023!</div>
-        <div className="pavimentacao">Pavimentacao em Fase Final</div>
+        <div className="pronto">Pronto em 2024!</div>
+        <div className="pavimentacao">PRONTO PARA MORAR</div>
       </div>
     </FasesStyle>
   );
