@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <Whatsapp />
       <ValuesSection />
-      <SectionVideo />
+{/*       <SectionVideo /> */}
       <Fases />
       <Mapa />
       <SectionForm />
