@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <FooterStyle>
       <span className="values">
-        Valor à vista de R$64.999,00 mediante a transferência bancária ou pix
-        válido para quadra J lote 2. Parcelamento em até 48x com entrada mínima
+        Valor à vista de R$ 89.900 mediante a transferência bancária ou pix
+        válido para lote J-02. Parcelamento em até 48x com entrada mínima
         de 35% do valor total, sem juros com IPCA. Parcelas de R$619,00 com
         entrada 8%, mais 12 parcelas anuais de R$750,00 em cima do valor
         financiado pela loteadora, com juros e correções.
