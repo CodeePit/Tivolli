@@ -33,10 +33,7 @@ const Form = () => {
   return (
     <FormStyle id="form">
       <div className="header">
-        <h1>Aproveite esta oportunidade</h1>
-        Lotes de <strong>150</strong>
-        <span>m²</span> com parcelas a partir de <span>R$</span>
-        <strong>619</strong>,00*
+        <h1>Aproveite as condições especiais</h1>
       </div>
       <form
         onSubmit={(ev) => {
