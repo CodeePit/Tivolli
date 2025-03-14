@@ -6,18 +6,35 @@ import { FormStyle } from './style';
 const Form = () => {
   const [value, setValue] = useState('');
   function submit(values: any) {
-    const dataCvCRM = {
-      nome: values.target.name.value,
-      email: values.target.email.value,
-      telefone: values.target.tel.value,
-      idempreendimento: 3,
-      permitir_alteracao: true,
-      origem: 'SI',
-      midia: 'Google LP',
-      conversao: 'CoreAg',
-    };
-    return fetcher
-      .post('https://julioejulio.cvcrm.com.br/api/cvio/lead', dataCvCRM)
+    // const dataCvCRM = {
+    //   nome: values.target.name.value,
+    //   email: values.target.email.value,
+    //   telefone: values.target.tel.value,
+    //   idempreendimento: 3,
+    //   permitir_alteracao: true,
+    //   origem: 'SI',
+    //   midia: 'Google LP',
+    //   conversao: 'CoreAg',
+    // };
+    return fetch('https://julioejulio.cvcrm.com.br/api/cvio/lead', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+        origemcv: 'true',
+        token: 'ba78359d1bc51e33c0dc0854b1f253d289bc5239',
+      },
+      body: JSON.stringify({
+        nome: values.target.name.value,
+        email: values.target.email.value,
+        telefone: values.target.tel.value,
+        origem: 'SI',
+        idempreendimento: 3,
+        midia: 'Google Lp',
+        conversao: 'CoreAg',
+        permitir_alteracao: true,
+      }),
+    })
       .then((res) => {
         alert(
           'Recebemos seu formulário.\n\n Entraremos em contato com você em breve',
