@@ -21,13 +21,12 @@ const Form = () => {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-        origemcv: 'true',
         token: 'ba78359d1bc51e33c0dc0854b1f253d289bc5239',
       },
       body: JSON.stringify({
-        nome: values.target.name.value,
-        email: values.target.email.value,
-        telefone: values.target.tel.value,
+        email: 'nivaldoolivasegundo@gmail.com',
+        telefone: '(79) 98833-0011',
+        nome: 'Nivaldo Oliva II',
         origem: 'SI',
         idempreendimento: 3,
         midia: 'Google Lp',
