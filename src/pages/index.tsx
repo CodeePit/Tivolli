@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Whatsapp />
+      {/* <Whatsapp /> */}
       <ValuesSection />
 {/*       <SectionVideo /> */}
       <Fases />
