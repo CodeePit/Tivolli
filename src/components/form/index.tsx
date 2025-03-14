@@ -24,9 +24,9 @@ const Form = () => {
         token: 'ba78359d1bc51e33c0dc0854b1f253d289bc5239',
       },
       body: JSON.stringify({
-        email: 'nivaldoolivasegundo@gmail.com',
-        telefone: '(79) 98833-0011',
-        nome: 'Nivaldo Oliva II',
+        email: values.target.email.value,
+        telefone: values.target.tel.value,
+        nome: values.target.name.value,
         origem: 'SI',
         idempreendimento: 3,
         midia: 'Google Lp',
