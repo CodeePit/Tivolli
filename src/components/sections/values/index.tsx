@@ -7,6 +7,7 @@ const ValuesSection = () => {
         <div className="loteamento">
           O Loteamento fechado que cabe no seu bolso!
         </div>
+      </div>
     </ValueSectionStyle>
   );
 };
